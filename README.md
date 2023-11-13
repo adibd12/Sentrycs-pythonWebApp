@@ -1,9 +1,12 @@
 # Sentrycs-pythonWebApp
 This Flask app is a simple web application running behind nginx+tls in Docker Compose that interacts with a MySQL database to manage and retrieve product data.
-The app uses the mysql.connector library to interact with the MySQL database. It converts the retrieved data from the database into JSON format and returns it to the client.
+
+The app uses the mysql.connector library to interact with the MySQL database.
+ It converts the retrieved data from the database into JSON format and returns it to the client.
 
 
-To set up and run a multi-container application using Docker Compose based on Jenkins, please ensure Docker and Docker Compose are installed on your Jenkins build agent or server.
+To set up and run a multi-container application using Docker Compose based on Jenkins, 
+please ensure Docker and Docker Compose are installed on your Jenkins build agent or server.
 
 
 .env file in the app folder contains all database configuration
