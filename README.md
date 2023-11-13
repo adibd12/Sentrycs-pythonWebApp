@@ -10,6 +10,7 @@ please ensure Docker and Docker Compose are installed on your Jenkins build agen
 
 
 .env file in the app folder contains all database configuration
+
 .env file under the main directory contains PASSWORD for connecting MySQL 
 
 
