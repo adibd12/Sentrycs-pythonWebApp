@@ -18,19 +18,23 @@ please ensure Docker and Docker Compose are installed on your Jenkins build agen
 How to test it:
 
 #hello world
+
 curl --insecure https://localhost
 
 
 #This route is used to create database tables. It connects to the MySQL database (specified by host, user, password, and database name) and uses a cursor to execute SQL statements for creating tables.
+
 curl --insecure https://localhost/initdb
 curl --insecure https://localhost/init_tables
 
 
 #"/products" endpoint of your Flask web application, you will receive a JSON response containing the list of products from the "tblProduct" table in your MySQL database.
+
 curl --insecure https://localhost/products
 
 
 #enter to mysql
+
 docker exec -ti mysql-flask-app-container mysql -u root -p
 
 
