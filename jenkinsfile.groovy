@@ -10,7 +10,7 @@ pipeline {
                         branches: [[name: '*/main']], 
                         doGenerateSubmoduleConfigurations: false,
                         extensions: [[$class: 'CleanBeforeCheckout'], [$class: 'CloneOption', timeout: 60]],
-                        userRemoteConfigs: [[url: 'https://github.com/adibd12/Sentrycs-WebApp.git']]
+                        userRemoteConfigs: [[url: 'https://github.com/adibd12/Sentrycs-pythonWebApp.git']]
                     ])
                 }
             }
