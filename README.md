@@ -30,12 +30,12 @@ curl --insecure https://localhost/products
 docker exec -ti mysql-flask-app-container mysql -u root -p
 
 
-# select a database and select all rows and columns from the "tblProduct" table in the database 
+#select a database and select all rows and columns from the "tblProduct" table in the database 
 use ProductManagement
 select * from tblProduct;
 
 
-# Insert two rows of data into the "tblProduct" table, with specific values for the "name" and "description" columns.
+#Insert two rows of data into the "tblProduct" table, with specific values for the "name" and "description" columns.
 INSERT INTO tblProduct(name, description) VALUES
 ('Dell XPS desktop', 'V7'),
 ('sony playstation', 'V5');
