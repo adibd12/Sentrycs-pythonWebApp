@@ -43,9 +43,10 @@ select * from tblProduct;
 
 #Insert two rows of data into the "tblProduct" table, with specific values for the "name" and "description" columns.
 
+"""
 INSERT INTO tblProduct(name, description) VALUES
 ('Dell XPS desktop', 'V7'),
 ('sony playstation', 'V5');
-
+"""
 
 curl --insecure https://localhost/products
